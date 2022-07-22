@@ -40,6 +40,8 @@
 }
 .recipie{
     text-align:center;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
 }
 .hasan{
     border-image-width: 50%;
@@ -49,38 +51,72 @@
 
 .point{
     text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5%;
 }
 .experience-aria{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: absolute;
+    width: 1440px;
+    height: 636px;
+    top: 900px;
+    left: 0px;
+    
+}
+.half-width img{
+    width: 525px;
 
 }
-.half-width img {
-    width: 746px;
+.half-width img-female{
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 902px;
 }
 .image-top {
     margin-top: 55px;
 }
-
-.body{
-    font-family: 'poppins', sans-serif;
+.especial{
+    font-family: 'Montserrat', sans-serif;
+    gap: 20px;
 }
+
 .rgb-color{
     color:orange;
 }
 .flexible-container{
     display:flex;
     margin-bottom: 150px;
+    gap:1.5%;
 }
 .experience-item{
 
     box-shadow: 10px 10px 40px gray;
-    width:40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 20px;
-    padding-top: 20px;
+    width:50%;
     border-radius: 10px;
 }
+.social{
+    padding: 50px 40px;
+    border: 5px black;
+    box-shadow: 10px 10px 40px grey;
+    margin: 0px 10px;
+    margin-left: 182px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.social-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.social-area{
+    box-shadow: 10px 10px 40px grey;
+    padding: 50px ;
+    margin: 50px 100px;
+
+}
+
 
